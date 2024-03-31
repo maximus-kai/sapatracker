@@ -23,7 +23,7 @@ const History = ({Transaction}) => {
         >X
               </button>
         <div>
-        <h5 className="text-3xl font-bold underline">
+        <h5 className="text-yellow-300 -3xl font-bold underline">
         {Transaction.description}
           </h5>
           <h6 className="text-3xl font-bold underline" color = {TheColor} >

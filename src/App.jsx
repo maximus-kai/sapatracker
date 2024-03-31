@@ -10,8 +10,9 @@ import { GlobalProvider } from './context/GlobalState';
 function App() {
 
   return (
-    <GlobalProvider>
-      <h5 className="text-3xl font-bold underline">
+    <GlobalProvider >
+      <div className="upercase">
+      <h5 className="text-grey-100 text-3xl font-bold ">
         Working fine, as of march 30, 2024.
           </h5>
           <Nav/>
@@ -20,6 +21,7 @@ function App() {
           <Summary/>
           <History/>
           <AddTransaction/>
+      </div>
  </GlobalProvider>
       )
     }
