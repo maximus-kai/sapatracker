@@ -1,18 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Nav  from './Components/Nav';
+import Heading from './Components/Heading';
+import Balance from './Components/Balance';
+import Summary from './Components/Summary';
+import History from './Components/HistoryList';
+import AddTransaction from './Components/AddTransaction';
+import { GlobalProvider } from './context/GlobalState';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
-}
-
-export default App
+    <GlobalProvider>
+      <h5 className="text-3xl font-bold underline">
+        Working fine, as of march 30, 2024.
+          </h5>
+          <Nav/>
+          <Heading/>
+          <Balance/>
+          <Summary/>
+          <History/>
+          <AddTransaction/>
+ </GlobalProvider>
+      )
+    }
+    
+    export default App;
+    
+    {/* 
+    
+     */}
