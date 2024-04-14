@@ -8,7 +8,7 @@ export default function HistoryList() {
         <>
         <br/>
         <h4 className="text-3xl
-          bg-yellow-400
+          bg-gray-700
             mx-60
           text-gray-700
             font-body
@@ -24,7 +24,7 @@ export default function HistoryList() {
             (<History key = {eachTransaction.id} Transaction = {eachTransaction} />)
             )
           }
-           <h6 className="text-xl font-bold mt-5 ">
+           <h6 className="text-xl text-gray-700 font-bold mt-5 ">
            Cassava, Garri, Ewa...uhhunn...
           </h6>
         </div>

@@ -13,7 +13,7 @@ const Summary = () => {
   
   return (
     <div>
-        <div className='mt-20 mx-60 py-10 border-t border-b  border-gray-100'>
+        <div className='mt-20 mx-60 text-gray-700 py-10 border-t border-b  border-gray-100'>
           <div className='flex justify-left'>
           <h5 className="text-3xl ml-30 font-bold ">
           INCOME

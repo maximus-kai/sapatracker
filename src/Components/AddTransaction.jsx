@@ -21,9 +21,9 @@ export default function AddTransaction() {
         <br/>
         <h5 className="text-3xl
          mx-60
-       text-gray-700
+       text-gray-100
          font-body
-       bg-yellow-400
+       bg-gray-700
          mt-10 
          font-bold ">
         Add New Transaction
@@ -32,7 +32,8 @@ export default function AddTransaction() {
       <input
           className='
           mt-10
-          px-60 py-5'
+          px-60 py-5
+          text-gray-700'
           label="Description"
           value = {text}
           onChange={(e)=> {setText(e.target.value)}}
@@ -41,6 +42,7 @@ export default function AddTransaction() {
         <div >
           <h5 className="
           text-3xl
+          text-gray-700
           font-bold ">
         Amount
            </h5> 
@@ -48,6 +50,7 @@ export default function AddTransaction() {
           className='
           mt-10
           px-60
+          text-gray-700
           py-5'
             value = {amount}
             onChange={(e)=> {setAmount(e.target.value) }}
@@ -57,8 +60,8 @@ export default function AddTransaction() {
         py-5
         mt-10 
         px-60 
-        bg-yellow-400 
-        text-gray-700 
+        bg-gray-700 
+        text-gray-100 
         font-bold 
         font-body 
         text-3xl 

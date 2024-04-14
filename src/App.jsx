@@ -12,8 +12,8 @@ function App() {
   return (
     <GlobalProvider >
       <div>
-      <h5 className="text-grey-100 text-3xl font-bold ">
-        Working fine, as of march 30, 2024.
+      <h5 className="text-gray-700 text-3xl pt-80 pb-10 font-bold ">
+        Working fine, as of April 14, 2024.
           </h5>
           <Nav/>
           <Heading/>
