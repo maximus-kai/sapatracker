@@ -10,19 +10,17 @@ const Balance = () => {
 
 
   return (
-    <div >
+    <div className='mx-60'>
 
-    <div
-    sx={{ pt: 4 }}
-    direction="row"
-    spacing={2}>
-            <h4 className="text-3xl font-bold underline">
+    <div className='flex justify-left'>
+            <h4 className="text-4xl ml-50 mt-20 font-bold ">
             Your Balance:
            </h4> 
-           <h4 className="text-3xl font-bold underline">
+           <h4 className="text-4xl ml-80 mt-20 font-bold ">
            ₦{Total}
            </h4> 
     </div>
+    
   </div>
   )
 }

@@ -7,7 +7,15 @@ export default function HistoryList() {
     return (
         <>
         <br/>
-        <h4 className="text-3xl font-bold underline">
+        <h4 className="text-3xl
+          bg-yellow-400
+            mx-60
+          text-gray-700
+            font-body
+            font-bold 
+            pb-0
+            border-b
+          border-gray-100 ">
         History
           </h4>
       <div>
@@ -16,7 +24,7 @@ export default function HistoryList() {
             (<History key = {eachTransaction.id} Transaction = {eachTransaction} />)
             )
           }
-           <h6 className="text-3xl font-bold underline">
+           <h6 className="text-xl font-bold mt-5 ">
            Cassava, Garri, Ewa...uhhunn...
           </h6>
         </div>

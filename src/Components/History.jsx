@@ -15,21 +15,20 @@ const History = ({Transaction}) => {
      TheColor = "#00ff00";
   }
   return (<>
-  <div>
+  <div className='flex justify-evenly p-2 border-gray-500 border-t border-b mx-60'>
             
-            <button 
-        variant="contained" 
+            <button className= ' text-2xl border-gray-200'
         onClick={()=>deleteTransaction(Transaction.id)}
         >X
               </button>
-        <div>
-        <h5 className="text-yellow-300 -3xl font-bold underline">
-        {Transaction.description}
+        
+        <h5 className="text-gray-300 text-2xl font-bold ">
+          {Transaction.description}
           </h5>
-          <h6 className="text-3xl font-bold underline" color = {TheColor} >
+          <h6 className="text-2xl font-bold " color = {TheColor} >
           {sign}₦{Math.abs(Transaction.something)}
           </h6>  
-          </div>
+          
   </div>
           </>
   )

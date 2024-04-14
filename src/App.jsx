@@ -11,7 +11,7 @@ function App() {
 
   return (
     <GlobalProvider >
-      <div className="upercase">
+      <div>
       <h5 className="text-grey-100 text-3xl font-bold ">
         Working fine, as of march 30, 2024.
           </h5>

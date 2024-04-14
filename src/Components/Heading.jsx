@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
 
 const Heading = () => {
   return (
-    <h5 className="text-3xl font-bold underline">
-   Sapa-Tracker.
-      </h5>  
-  )
-}
+    <h6 className="text-8xl
+     bg-yellow-400
+      rounded-t-full
+       text-gray-700 
+       font-body 
+       font-bold
+        py-5 border-b
+         border-gray-100  
+         underline ">
+      Sapa-Tracker
+    </h6>
+  );
+};
 
-export default Heading
+export default Heading;

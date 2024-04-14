@@ -13,21 +13,21 @@ const Summary = () => {
   
   return (
     <div>
-        <div>
-          <div>
-          <h5 className="text-3xl font-bold underline">
+        <div className='mt-20 mx-60 py-10 border-t border-b  border-gray-100'>
+          <div className='flex justify-left'>
+          <h5 className="text-3xl ml-30 font-bold ">
           INCOME
           </h5>
-          <h5 className="text-3xl font-bold underline">
+          <h5 className="text-3xl  font-bold ">
           +₦{Income}
           </h5>
           </div>
          
-          <div>
-          <h5 className="text-3xl font-bold underline">
+          <div className='flex justify-left'>
+          <h5 className="text-3xl  font-bold ">
           EXPENSE
           </h5>
-          <h5 className="text-3xl font-bold underline">
+          <h5 className="text-3xl font-bold ">
           -₦{Math.abs(Expense)} 
           </h5>
           </div>
