@@ -9,8 +9,7 @@ export default function HistoryList() {
         <br/>
         <h4 className="text-3xl
           bg-gray-700
-            mx-60
-          text-gray-700
+          text-gray-100
             font-body
             font-bold 
             pb-0

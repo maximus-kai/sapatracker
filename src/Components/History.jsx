@@ -15,7 +15,7 @@ const History = ({Transaction}) => {
      TheColor = "#00ff00";
   }
   return (<>
-  <div className='flex justify-evenly p-2 border-gray-500 border-t border-b mx-60'>
+  <div className='flex justify-evenly py-2 border-gray-500 border-t border-b'>
             
             <button className= ' text-2xl text-gray-700 border-gray-200'
         onClick={()=>deleteTransaction(Transaction.id)}

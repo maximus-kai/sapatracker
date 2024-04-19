@@ -2,17 +2,16 @@ import React from "react";
 
 const Heading = () => {
   return (
-    <h6 className="text-8xl
-     bg-gray-700
-      rounded-t-full
+    <h6 className="
+       text-6xl
        text-gray-100 
        font-body 
-       font-bold
-        py-5 border-b
-         border-gray-100  
-         underline ">
+       bg-gray-700
+       mt-10
+      font-bold
+      ">
       {/* Sapa-Tracker */}
-      ----------------
+      Tracker
     </h6>
   );
 };
