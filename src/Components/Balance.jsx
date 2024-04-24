@@ -10,13 +10,13 @@ const Balance = () => {
 
 
   return (
-    <div className=' text-gray-700'>
+    <div className=' text-gray-200'>
 
-    <div className='flex justify-left'>
-            <h4 className="text-4xl mt-20 font-bold ">
+    <div className='flex justify-center'>
+            <h4 className="text-2xl text-center mt-20 font-bold ">
             Your Balance:
            </h4> 
-           <h4 className="text-4xl mt-20 font-bold ">
+           <h4 className="text-2xl mt-20  font-bold ">
            ₦{Total}
            </h4> 
     </div>
@@ -25,4 +25,4 @@ const Balance = () => {
   )
 }
 
-export default Balance
+export default Balance;
