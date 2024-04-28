@@ -13,9 +13,6 @@ function App() {
     <GlobalProvider >
       <div>
           <TestTail/>
-      <h5 className="text-gray-300 text-xl text-center pt-80 pb-10 font-bold ">
-        Working fine, as of April 23, 2024.
-          </h5>
           <Nav/>
           <Heading/>
           <Balance/>

@@ -8,7 +8,7 @@ const Heading = () => {
        text-gray-200
        font-body 
        
-       mt-10
+       mt-12
       font-bold
       ">
       {/* Sapa-Tracker */}
