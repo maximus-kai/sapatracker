@@ -10,7 +10,7 @@ const TestTail = () => {
         </div>
         <div className='fixed top-1 left-0 right-1'>
         <h5 className="text-gray-300 text-xl text-center  font-bold ">
-        Working fine, as of April 23, 2024.
+          Working fine, as of April 28, 2024.
           </h5>
         </div>
     </div>
